@@ -15,11 +15,92 @@ body {
 }
 
 .naslov h1 {
-    color: rgb(0, 132, 255);
+    color: rgb(0, 76, 255);
 }
 
 .linkovi a {
     color: black;
     text-decoration: none;
-    padding: 16px 10px;
+    padding: 16px 13px;
 }
+
+.linkovi span { 
+    color: rgb(0, 76, 255);
+}
+.getstarted {
+    border:rgb(0, 76, 255) solid 1px ;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+.hero {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.naslov-hero h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.opis { 
+    margin-top: 20px;
+}
+
+.hero img {
+    margin-top: -300px;
+    margin-left: 700px;
+}
+.button {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.btn1 {
+    background-color: rgb(0, 76, 255);
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 13px;
+}
+
+.btn1 a {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+   
+   
+}
+
+.btn2 {
+    border: 2px rgb(0, 76, 255) solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+}
+
+.btn2 {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.opis p {
+    line-height: 2;
+    font-size: 15px;
+}
+
+.fa-check {
+    color: rgb(0, 76, 255);
+    font-size: 13px;
+    
+}
+
